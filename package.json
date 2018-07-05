@@ -1,0 +1,31 @@
+{
+  "name": "express-s3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkmms/express-s3-sample.git"
+  },
+  "author": "Mohan kumar <mkmmslearn@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkmms/express-s3-sample/issues"
+  },
+  "homepage": "https://github.com/mkmms/express-s3-sample#readme",
+  "dependencies": {
+    "aws-sdk": "^2.268.1",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "multer": "^1.3.1",
+    "multer-s3": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
